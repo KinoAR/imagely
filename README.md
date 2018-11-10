@@ -6,7 +6,7 @@
 
 # How To Run
 
-1. Clone the repository `git clone <repository url>`
+1. Clone the repository `git clone https://github.com/KinoAR/imagely.git`
 2. Install Django `pip install django=2.1.3`
 3. Install Pillows `pip install Pillow`
 
@@ -21,3 +21,8 @@ Migrations are how Django storage changes to your models (database schema). Migr
 `python manage.py sqlmigrate imagestorage 0001`
 
 Prints the SQL code that Django thinks is required for your migrations.
+
+# Django API Shell
+`python manage.py shell`
+
+Allows you to interactively play around with the Django API; this shell sets the environment variables to match the Django project.
